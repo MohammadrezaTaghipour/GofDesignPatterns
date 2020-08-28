@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "Creat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "src\CreationalPatterns\AbstractFactory\AbstractFactory.csproj", "{73D70B7F-C8BC-45C8-A1F9-D36620456464}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "src\CreationalPatterns\Builder\Builder.csproj", "{E927E6E5-9BD1-4B6D-A425-CA366D01A621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "src\CreationalPatterns\Builder\Builder.csproj", "{E927E6E5-9BD1-4B6D-A425-CA366D01A621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "src\CreationalPatterns\FactoryMethod\FactoryMethod.csproj", "{1870674C-06A3-48C0-80A2-DB17CA5A08D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{E927E6E5-9BD1-4B6D-A425-CA366D01A621}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E927E6E5-9BD1-4B6D-A425-CA366D01A621}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E927E6E5-9BD1-4B6D-A425-CA366D01A621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1870674C-06A3-48C0-80A2-DB17CA5A08D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1870674C-06A3-48C0-80A2-DB17CA5A08D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1870674C-06A3-48C0-80A2-DB17CA5A08D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1870674C-06A3-48C0-80A2-DB17CA5A08D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +39,7 @@ Global
 		{C2C3C238-325D-43F0-83CB-6FE02FEC4EDA} = {DDA7779B-545A-46B8-A52F-356614BA8767}
 		{73D70B7F-C8BC-45C8-A1F9-D36620456464} = {C2C3C238-325D-43F0-83CB-6FE02FEC4EDA}
 		{E927E6E5-9BD1-4B6D-A425-CA366D01A621} = {C2C3C238-325D-43F0-83CB-6FE02FEC4EDA}
+		{1870674C-06A3-48C0-80A2-DB17CA5A08D8} = {C2C3C238-325D-43F0-83CB-6FE02FEC4EDA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DEF0C8A6-EEAD-4C02-96C5-608EA41E4811}
